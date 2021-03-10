@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">testDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="danh_muc_fragment">Danh mục</string>
+    <string name="menu_fragment">Menu</string>
+    <string name="tat_ca_mon_fragment">Tất cả món</string>
+</resources>
