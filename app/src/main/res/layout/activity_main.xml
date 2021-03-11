@@ -7,20 +7,27 @@
     tools:context=".MainActivity">
 
 
-
     <TextView
         android:id="@+id/txThucDon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:lineHeight="18.75dp"
+        android:layout_marginTop="20dp"
+        android:lineHeight="19dp"
         android:text="Thực Đơn"
         android:textColor="@color/text"
         android:textFontWeight="500"
         android:textSize="16sp"
         android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tabLayout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/gray" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager_menu"
@@ -33,7 +40,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txThucDon"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginTop="29dp"
-        app:tabSelectedTextColor="@color/cam" />
+        app:tabIndicatorColor="@color/cam"
+        app:tabIndicatorHeight="2dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/cam"
+        app:tabTextAppearance="@style/MinCustomTabText"
+        app:tabTextColor="@color/gray" />
 
 </RelativeLayout>
