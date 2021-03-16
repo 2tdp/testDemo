@@ -3,6 +3,7 @@
     <color name="text">#333333</color>
     <color name="cam">#ED8E34</color>
     <color name="gray">#C5CCD6</color>
+    <color name="backgound">#E5E5E5</color>
     <color name="color_main">#ECA96A</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

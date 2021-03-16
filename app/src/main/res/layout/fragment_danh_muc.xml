@@ -2,17 +2,17 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/MainContainer"
     tools:context=".DanhMucFragment">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="12dp">
 
         <RelativeLayout
@@ -24,10 +24,12 @@
                 android:id="@+id/tvThem"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
+                android:layout_marginEnd="6dp"
                 android:background="@drawable/rectangle"
                 android:drawablePadding="9sp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Thêm"
                 android:textColor="@color/cam"
                 app:drawableStartCompat="@drawable/shape" />
@@ -36,7 +38,9 @@
                 android:id="@+id/tvDanh_muc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/roboto_medium"
+                android:lineHeight="15dp"
                 android:text="Số danh mục"
                 android:textColor="@color/text"
                 android:textSize="12sp"
@@ -46,7 +50,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvDanh_muc"
-                android:layout_marginTop="2dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="1dp"
+                android:alpha="0.54"
+                android:fontFamily="@font/roboto_medium"
+                android:lineHeight="14sp"
                 android:text="3 mục"
                 android:textFontWeight="400"
                 android:textSize="12sp" />
